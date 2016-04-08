@@ -60,7 +60,7 @@
 /* TESTIMONIALS */
 /* ---------------------------------------*/
 
-.section-testimonials {
+.section-companies {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image-cover.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image-cover.jpg);
     background-size: cover;
@@ -103,9 +103,6 @@ cite img {
     vertical-align: middle;
 }
 
-.gallery {
-	background-color: #555;
-}
 .companies {
 	text-align: center;
 }
@@ -115,4 +112,8 @@ cite img {
 	img {
 		width: 190px;
 	}
+}
+
+.customers-speacker {
+    height: 50vh;
 }
