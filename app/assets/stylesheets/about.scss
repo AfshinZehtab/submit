@@ -1,0 +1,118 @@
+@import 'fix';
+
+
+/* ---------------------------------------*/
+/* ABOUT */
+/* ---------------------------------------*/
+
+.about {
+    padding: 0;
+
+    p {
+	    font-size: 90%;
+		line-height: 145%;
+		margin: 5% 8%;
+	    text-align: center;
+    }
+}
+
+.social-customers {
+    list-style: none;
+    width: 100%;
+    margin: 0px 20%;
+}
+
+.social-customers li {
+    display: inline-block;
+    width: 15%;
+
+    .google:hover { color: $googleplus; }
+    .facebook:hover { color: $facebook; }
+    .windows:hover { color: $windows; }
+    .apple:hover:hover { color: $silver; }
+}
+.customers-icons {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: 300%;
+}
+
+.customers-icons i {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15); 
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s; 
+    transition: opacity 0.5s, -webkit-transform 0.5s; 
+    transition: transform 0.5s, opacity 0.5s; 
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.customers-icons i:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+
+/* ---------------------------------------*/
+/* TESTIMONIALS */
+/* ---------------------------------------*/
+
+.section-testimonials {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image-cover.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image-cover.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%; 
+    display: block;
+    position: relative;
+    margin-top: 40px;
+    height: 100px;
+
+}
+
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.gallery {
+	background-color: #555;
+}
+.companies {
+	text-align: center;
+}
+
+.item {
+	display: inline-block;
+	img {
+		width: 190px;
+	}
+}
