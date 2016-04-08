@@ -4,14 +4,49 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
 # Ignore bundler config.
 /.bundle
-
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
 /tmp
+/.sass-cache
+
+# Ignore config
+config/figaro.yml
+/config/figaro.yml
+vendor/assets/bower_components/*
+
+# Ignore Sitemap (currently inactive)
+#public/sitemap.xml.gz
+#/public/sitemap.xml.gz
+
+public/assets/**
+node_modules
