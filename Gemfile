@@ -1,10 +1,14 @@
 source 'https://rubygems.org'
 
+gem 'rails_12factor', group: :production
+gem 'pg'
+gem 'puma'
+ruby '2.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '>= 4.2'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -23,6 +27,17 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+
+gem 'mechanize'
+gem 'ms-dropdown-rails'
+gem 'json'
+gem 'telegram-bot-ruby'
+gem 'whenever', '~> 0.9.4'
+gem 'javan-whenever'
+gem 'devise', '~> 3.4.0'   # or later
+gem 'rest-client'
+gem 'annotate'
+gem 'rmagick', '~> 2.13.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -33,15 +48,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
-end
+	gem 'sqlite3', '~> 1.3.11'
+	# Call 'byebug' anywhere in the code to stop execution and get a debugger console
+	gem 'byebug'
 
-group :development do
-  # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+	# Access an IRB console on exception pages or by using <%= console %> in views
+	gem 'web-console', '~> 2.0'
 
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+	# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+	gem 'spring'
 end
 
