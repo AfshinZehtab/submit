@@ -37,16 +37,4 @@ Temporary Items
 /log/*
 !/log/.keep
 /tmp
-/.sass-cache
-
-# Ignore config
-config/figaro.yml
-/config/figaro.yml
-vendor/assets/bower_components/*
-
-# Ignore Sitemap (currently inactive)
-#public/sitemap.xml.gz
-#/public/sitemap.xml.gz
-
-public/assets/**
-node_modules
+/.sass-cache.env
