@@ -1,0 +1,139 @@
+
+
+
+
+/* big tablets to 1200px (widths smaller than the 1140px row ) */
+
+@media only screen and (max-width: 1200px) {
+    
+    h2 { font-size: 170%; }
+
+    .hero-text-box {
+        margin-top: 5%;
+
+        h1 { margin: 5% 14%; }
+        p { margin: 5% 16%; }
+    }
+
+    .section-companies {
+        .companies {
+            img { width: 180px; }
+        }
+    }
+
+    .customers-text { 
+
+        div { font-size: 95%; }
+    }
+
+}
+
+
+
+
+/* Small tablets to big tablets: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    h2 { font-size: 140%; }
+
+
+    header {
+        background-attachment: initial;
+    }
+
+    .hero-text-box {
+        margin-top: 15%;
+
+        svg { width: 130px; }
+        h4 { font-size: 70%; }
+        h1 {
+            padding: 0 20%;
+            font-size: 200%;
+            margin: 2% 0;
+        }
+
+        .btn {
+            padding: 15px 35px;
+            margin-bottom: 5%;
+        }
+    }
+
+    .about {
+        .social-customers { font-size: 80%; }
+
+        p {
+            font-size: 80%;
+            line-height: 145%;
+            margin: 4% 15%;
+        }
+    }
+
+    .section-companies {
+        .companies {
+            img { width: 130px; }
+        }        
+    }
+
+    .customers-speacker {
+        padding: 0 11%;
+
+        div { font-size: 90%; }        
+    }
+
+}
+
+
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0;
+    }
+    
+    .hero-text-box {
+        height: 150%;
+        svg {
+            width: 120px;
+            margin-top: 5%;
+        }
+
+        h1 {
+            padding: 0px 31%;
+            font-size: 150%;
+        }
+
+        .btn { padding: 7px 16px; }
+    }
+
+}
+
+
+
+/* Small phones: from 0px to 480px */
+
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+
+    
+
+}
+
+
+
+
+
+
+
+
