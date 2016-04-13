@@ -6,9 +6,6 @@
 /* ---------------------------------------*/
 
 
-header {
-    position: relative;
-}
 
 video {
     width: 100%;
@@ -28,7 +25,7 @@ video {
     transform: translate(-50%, -50%);
     text-align: center;
 
-    & h1 { margin: 5% -10%; }
+    & h1 { margin: 5% 0; }
 
     & h4 { 
         color: $silver;
