@@ -1,0 +1,78 @@
+<div class="map-box">
+    <div id="googleMap"></div>
+
+    <div class="form-box">
+        <div class="row">
+            <h2>WE'RE HAPPY TO HEAR FROM YOU</h2>
+        </div>
+        <div class="row  js--wp-4">
+            <form method="post" action="#" class="contact-form">                
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <select name="find-us" id="find-us">
+                            <option value="friend" selected>Friends</option>
+                            <option value="search">Search engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="news">Newsletter?</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="checkbox" name="news" id="news" checked>Yes, Please!
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="text">Drop us a line</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <textarea name="message" id="text" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="submit" value="Send it">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('googleMap'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YAIzaSyBJFLNQY-O8TsPrff0Hsa0eImB9o4fBvT4&callback=initMap"
+async defer></script>
