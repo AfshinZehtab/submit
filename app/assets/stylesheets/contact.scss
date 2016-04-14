@@ -3,32 +3,35 @@
 /* FORM */
 /* ---------------------------------------*/
 
-.section-form {
-    margin: 4% 0;
-}
 
 .contact-form {
     width: 90%;
     margin: 0 auto;
+    font-weight: 200;
+    text-align: center;
 }
 
-input[type=text],
-input[type=email],
-select,
-textarea {
-    width: 100%;
-    padding: 7px;
+input {
+    font-family: Lato;
+}
+
+input[type=email] {
+    width: 80%;
+    padding: 10px;
     border-radius: 3px;
     border: 1px solid #ccc;
+    font-size: 70%;
+    margin-top: 5%;
+    font-weight: 200;
 }
 
-textarea {
-    height: 100px;
+input[type=submit] {
+    margin-top: 5%;
+    font-size: 90%;
+    padding: 33px 20px;
+    font-weight: 200;
 }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
 
 .map-box {
     width: 100%;
