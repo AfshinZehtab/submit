@@ -48,6 +48,9 @@
     nav { display: none; }
 
     .hero-text-box {
+        top: 0;
+        margin-top: 36%;
+        width: 100%;
 
         svg { width: 130px; }
         h4 { font-size: 70%; }
@@ -82,7 +85,30 @@
     .customers-speacker {
         padding: 0 11%;
 
-        div { font-size: 90%; }        
+        div { font-size: 90%; }
+        cite img {
+            height: 60px;        
+        }
+    }
+
+    .section-lisbon {
+
+        .section-lisbon__block { width: 99%; }
+    }
+
+    .section-speacker {
+
+        .speackers-box { margin: 0 5%; }
+    }
+
+    .footer-nav { 
+        width: 100%;
+        font-size: 80%;
+    }
+
+    .social-links { 
+        float: initial;
+        text-align: center; 
     }
 
 }
@@ -151,7 +177,10 @@
 /* Small phones: from 0px to 480px */
 
 @media only screen and (max-width: 480px) {
+
+    body { font-size: 10px; }
     section { padding: 25px 0; }
+    h2 { font-size: 120%; }
 
     header {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header-cover.jpg);
@@ -162,6 +191,24 @@
         background-attachment: fixed;
     }
 
+    .hero-text-box {
+        margin: 70% 0;
+
+        h1 {
+        padding: 20px 0;
+        font-size: 110%;
+        }
+    }
+
+    .section-companies {
+        .companies {
+            img { width: 60px; }
+        }        
+    }
+
+    .section-speacker .speackers-box img {
+        width: 25%;
+    }
 }
 
 
