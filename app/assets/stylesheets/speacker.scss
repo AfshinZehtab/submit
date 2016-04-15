@@ -45,14 +45,17 @@
 		  color: #000;
 		}
 
-		figure {
-			margin: 0;
-			width: 220px;
-		}
+		// figure {
+		// 	width: 220px;
+		// }
 
 		i {
 			font-size: 100%;
 			margin-right: 5%;
 		}
+
+		.span_1_of_5:first-child { margin-left: 4%; }
+		.span_1_of_5:nth-child(6) { margin-left: 4%; }
+		.span_1_of_5:nth-child(11) { margin-left: 4%; }
 	} 
 }
