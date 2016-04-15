@@ -56,12 +56,12 @@
         h4 { font-size: 70%; }
         h1 {
             padding: 0 20%;
-            font-size: 200%;
+            font-size: 150%;
             margin: 2% 0;
         }
 
         .btn {
-            padding: 15px 35px;
+            padding: 10px 30px;
             margin-bottom: 5%;
         }
     }
@@ -98,19 +98,37 @@
 
     .section-speacker {
 
-        .speackers-box { margin: 0 5%; }
+        div.row.speackers-box { 
+
+            img { width: 40%; }
+            a { font-size: 14px; }
+            figure { margin: 0 40%; }
+        }
     }
 
-    .footer-nav { 
-        width: 100%;
-        font-size: 80%;
+    .map-box {
+        height: 350px;
+
+        input[type=submit] {
+            padding: 22px 8px;
+        }
+
+        .form-box { height: 350px; }
     }
 
-    .social-links { 
-        float: initial;
-        text-align: center; 
-    }
+    footer {
+        padding: 20px;
 
+        .footer-nav { 
+            width: 100%;
+            font-size: 80%;
+        }
+
+        .social-links { 
+            float: initial;
+            text-align: center; 
+        }
+    }
 }
 
 
