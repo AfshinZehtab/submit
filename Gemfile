@@ -34,7 +34,7 @@ gem 'json'
 gem 'telegram-bot-ruby'
 gem 'whenever', '~> 0.9.4'
 gem 'javan-whenever'
-gem 'devise', '~> 3.4.0'   # or later
+gem 'devise', '~> 4.7.1'   # or later
 gem 'rest-client'
 gem 'annotate'
 gem 'rmagick', '~> 2.13.1'
